@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{RESUMEN}{1}{chapter*.1}%
 \contentsline {chapter}{ABSTRACT}{\es@scroman {i}}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}IntroducciÃƒÂ³n}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Antecedentes Internacionales}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Antecedentes Nacionales}{3}{subsection.1.1.2}%
@@ -20,18 +20,18 @@
 \contentsline {section}{\numberline {1.7}Justificación}{8}{section.1.7}%
 \contentsline {subsection}{\numberline {1.7.1}Justificación Técnica}{8}{subsection.1.7.1}%
 \contentsline {subsection}{\numberline {1.7.2}Justificación Social}{9}{subsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.7.3}Justificación Económica}{9}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.3}Justificación Operativa y de Trazabilidad}{9}{subsection.1.7.3}%
 \contentsline {subsection}{\numberline {1.7.4}Justificación Medioambiental}{9}{subsection.1.7.4}%
 \contentsline {section}{\numberline {1.8}Metodología de la investigación}{10}{section.1.8}%
 \contentsline {section}{\numberline {1.9}Enfoque de la investigación}{10}{section.1.9}%
 \contentsline {section}{\numberline {1.10}Nivel de investigación}{10}{section.1.10}%
 \contentsline {section}{\numberline {1.11}Tipo de estudio}{10}{section.1.11}%
-\contentsline {section}{\numberline {1.12}Métodos de investigación}{10}{section.1.12}%
+\contentsline {section}{\numberline {1.12}Métodos de investigación}{11}{section.1.12}%
 \contentsline {section}{\numberline {1.13}Población, tipo de muestreo y muestra}{11}{section.1.13}%
 \contentsline {section}{\numberline {1.14}Técnicas e instrumentos de recolección de datos}{12}{section.1.14}%
-\contentsline {section}{\numberline {1.15}Medios}{12}{section.1.15}%
+\contentsline {section}{\numberline {1.15}Medios}{13}{section.1.15}%
 \contentsline {section}{\numberline {1.16}Fuentes de información}{13}{section.1.16}%
-\contentsline {chapter}{\numberline {2}Marco teórico}{14}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Marco teÃƒÂ³rico}{14}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Marco Histórico}{14}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Evolución del soporte técnico informático y modelos de mantenimiento}{14}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}De las boletas físicas a los sistemas de Help Desk y gestión de tickets}{15}{subsection.2.1.2}%
@@ -44,17 +44,19 @@
 \contentsline {subsection}{\numberline {2.2.4}Contexto local (Ciudad de Tarija) y dinámicas operativas de los talleres independientes}{18}{subsection.2.2.4}%
 \contentsline {section}{\numberline {2.3}Marco Conceptual}{21}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Fundamentos de Ingeniería de Software y Sistemas de Información}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Gestión de Servicios de Soporte Técnico y Help Desk}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Trazabilidad, ciclo de vida de órdenes de servicio y persistencia relacional}{22}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Arquitectura de Software, Modelado UML e Ingeniería de Requerimientos}{23}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Asistencia mediante Inteligencia Artificial: Modelos de Lenguaje (LLM), Prompt Engineering y PLN}{24}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Seguridad de la Información, Control de Acceso Basado en Roles (RBAC) y Privacidad}{26}{subsection.2.3.6}%
-\contentsline {section}{\numberline {2.4}Marco Normativo}{26}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Marco Jurídico Nacional (Bolivia)}{27}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Estándares Técnicos Internacionales de Calidad y Seguridad}{27}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Marco Referencial (Pila Tecnológica del Sistema)}{28}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Entorno de Desarrollo y Lenguajes de Programación}{28}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Marcos de Trabajo (Frameworks) y Librerías de Interfaz}{29}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Motor de Base de Datos y Persistencia Relacional}{29}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Herramientas de Modelado de Software y Documentación}{30}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Pila Tecnológica de Inteligencia Artificial Conversacional}{30}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.3.2}Prestadores de Servicios de Soporte Técnico y Clasificación del Mantenimiento}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Gestión de Servicios de TI, Help Desk e ITIL 4}{23}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Trazabilidad, Ciclo de Vida de Órdenes de Servicio y Persistencia Relacional}{23}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Arquitectura de Software, Modelado UML e Ingeniería de Requerimientos}{25}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Asistencia mediante Inteligencia Artificial: Modelos de Lenguaje (LLM), Agentes Conversacionales y Prompt Engineering}{26}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Seguridad de la Información, Control de Acceso Basado en Roles (RBAC) y Privacidad}{28}{subsection.2.3.7}%
+\contentsline {section}{\numberline {2.4}Marco Normativo}{29}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Marco Jurídico Nacional (Bolivia)}{29}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Estándares Técnicos Internacionales de Calidad y Seguridad}{30}{subsection.2.4.2}%
+\contentsline {subsubsection}{Matriz Operativa de Evaluación de Calidad del MVP (ISO/IEC 25010:2023)}{30}{section*.8}%
+\contentsline {section}{\numberline {2.5}Marco Referencial (Pila Tecnológica del Sistema)}{32}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Entorno de Desarrollo y Lenguajes de Programación}{32}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Marcos de Trabajo (Frameworks) y Librerías de Interfaz}{32}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Motor de Base de Datos y Persistencia Relacional}{33}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Herramientas de Modelado de Software y Documentación}{33}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Pila Tecnológica de Inteligencia Artificial Conversacional}{34}{subsection.2.5.5}%

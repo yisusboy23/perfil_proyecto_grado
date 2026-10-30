@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.21)  27 OCT 2026 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.21)  30 OCT 2026 01:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,12 +327,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (D:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count320
-) (main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 11.
-)
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -355,6 +350,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 4.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -410,7 +407,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 4.
- (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -425,49 +421,19 @@ l.1 \chapter
 
 ]) [1
 
-] (main.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 3.
-
-
-Package spanish Warning: Replacing `T1/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
-(D:\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
- (D:\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
- (D:\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
- (D:\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
- [2
-
-] [3])
+]
+No file main.toc.
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [4]
+[2
+
+]
 Cap\'{\i }tulo 1.
-(secciones/cap1_introduccion/1.1_antecedentes.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
+(D:\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (secciones/cap1_introduccion/1.1_antecedentes.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -475,492 +441,908 @@ l.13 E
       l valor sustantivo de este antecedente radica en la aplicaci√≥n del ma... [1
 
 
-] [2] [3]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 43.
- (D:\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [4{D:/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (secciones/cap1_introduccion/1.2_delimitacion.tex) (secciones/cap1_introduccion/1.3_planteamiento_problema.tex [5]) (secciones/cap1_introduccion/1.4_formulacion_problema.tex) (secciones/cap1_introduccion/1.5_sistematizacion_abordaje.tex
+{D:/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [2]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 27.
+ (D:\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 27.
+ (D:\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 27.
+ (D:\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 27.
+ (D:\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 9.
+(Font)              <12> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 27.
+ [3] [4]) (secciones/cap1_introduccion/1.2_delimitacion.tex) (secciones/cap1_introduccion/1.3_planteamiento_problema.tex [5]) (secciones/cap1_introduccion/1.4_formulacion_problema.tex) (secciones/cap1_introduccion/1.5_sistematizacion_abordaje.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 10.
 
-Underfull \hbox (badness 1226) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10.95 Situaciones pre-li-mi-
+Underfull \hbox (badness 2277) in paragraph at lines 12--12
+[]|\T1/lmr/bx/n/10.95 Situaciones pre-li-mi-na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|\T1/lmr/bx/n/10.95 Problema Cen-tral y
+Underfull \hbox (badness 1242) in paragraph at lines 12--12
+\T1/lmr/bx/n/10.95 res ba-jo in-ves-ti-ga-ciÛn
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 11--11
-\T1/lmr/bx/n/10.95 Com-po-nen-te de So-lu-
+Underfull \hbox (badness 6204) in paragraph at lines 14--14
+\T1/lmr/m/n/10.95 gi-ta-li-za-da con re-gis-tro de
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 11--12
-[]|\T1/lmr/bx/n/10.95 Consecuencias e Im-
+Underfull \hbox (badness 1609) in paragraph at lines 14--15
+[]|\T1/lmr/m/n/10.95 F1: Fa-ci-li-tar la ve-ri-fi-ca-ciÛn
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/lmr/m/n/10.95 mi-nan-te de re-gis-tros
+Underfull \hbox (badness 1163) in paragraph at lines 14--15
+\T1/lmr/m/n/10.95 tre-ga del equi-po y brin-dar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/lmr/m/n/10.95 men-sa-je-rÌa dis-per-sos
+Underfull \hbox (badness 1603) in paragraph at lines 16--16
+[]|\T1/lmr/m/n/10.95 C2: Di-fi-cul-tad del clien-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-\T1/lmr/m/n/10.95 pa-ra do-cu-men-tar la
+Underfull \hbox (badness 3019) in paragraph at lines 16--16
+\T1/lmr/m/n/10.95 cuen-cia-les del ser-vi-cio (re-
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 13--13
-\T1/lmr/m/n/10.95 fÌas, ob-ser-va-cio-nes ini-cia-
+Underfull \hbox (badness 1102) in paragraph at lines 16--16
+\T1/lmr/m/n/10.95 ga), mar-cas tem-po-ra-les (ti-
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 13--14
-\T1/lmr/m/n/10.95 dar res-pal-do do-cu-men-tal
+Underfull \hbox (badness 1210) in paragraph at lines 16--17
+\T1/lmr/m/n/10.95 ti-dum-bre del usua-rio y las
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 te pa-ra con-sul-tar el
+Overfull \hbox (21.7736pt too wide) in paragraph at lines 10--21
+ [][] 
+ []
+
+[6]) (secciones/cap1_introduccion/1.6_objetivos.tex [7
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.11     \item D
+                eterminar los requerimientos funcionales y no funcionales de...]) (secciones/cap1_introduccion/1.7_justificacion.tex
+
+LaTeX Warning: Citation `googleai2026' on page 8 undefined on input line 7.
+
+[8]) (secciones/cap1_introduccion/1.8_metodologia.tex [9]) (secciones/cap1_introduccion/1.9_enfoque.tex) (secciones/cap1_introduccion/1.10_nivel_investigacion.tex) (secciones/cap1_introduccion/1.11_tipo_estudio.tex) (secciones/cap1_introduccion/1.12_metodos.tex [10]) (secciones/cap1_introduccion/1.13_poblacion_muestreo.tex [11]) (secciones/cap1_introduccion/1.14_tecnicas_instrumentos.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\T1/lmr/bx/n/10.95 Instrumento
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 man-te-ni-mien-to sin re-
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 que-rir la in-te-rrup-ciÛn
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 17--18
-\T1/lmr/m/n/10.95 ne-ra au-to-ma-ti-za-da, op-ti-
- []
-
-) (secciones/cap1_introduccion/1.6_objetivos.tex [6] [7]) (secciones/cap1_introduccion/1.7_justificacion.tex [8]) (secciones/cap1_introduccion/1.8_metodologia.tex) (secciones/cap1_introduccion/1.9_enfoque.tex [9]) (secciones/cap1_introduccion/1.10_nivel_investigacion.tex) (secciones/cap1_introduccion/1.11_tipo_estudio.tex) (secciones/cap1_introduccion/1.12_metodos.tex) (secciones/cap1_introduccion/1.13_poblacion_muestreo.tex [10] [11]) (secciones/cap1_introduccion/1.14_tecnicas_instrumentos.tex
-Underfull \hbox (badness 1226) in paragraph at lines 11--12
-[]|\T1/lmr/bx/n/10.95 Finalidad de Re-co-
- []
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 13--13
+Underfull \hbox (badness 6094) in paragraph at lines 14--14
 []|\T1/lmr/m/n/10.95 Entrevista se-mi-
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 13--13
-[]|\T1/lmr/m/n/10.95 GuÌa de pre-gun-tas
+Underfull \hbox (badness 7273) in paragraph at lines 14--14
+\T1/lmr/m/n/10.95 tas abier-tas en
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 13--13
-\T1/lmr/m/n/10.95 abier-tas di-ri-gi-da a
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 13--14
-\T1/lmr/m/n/10.95 ci-pa-les di-fi-cul-ta-des de
- []
-
-
-Underfull \hbox (badness 3492) in paragraph at lines 15--15
+Underfull \hbox (badness 3492) in paragraph at lines 16--16
 []|\T1/lmr/m/n/10.95 Encuesta es-truc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 []|\T1/lmr/m/n/10.95 Cuestionario es-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-\T1/lmr/m/n/10.95 truc-tu-ra-do (fÌ-si-
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\T1/lmr/m/n/10.95 MÈtodo Em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/lmr/m/n/10.95 RevisiÛn do-cu-
+Underfull \hbox (badness 7451) in paragraph at lines 18--18
+\T1/lmr/m/n/10.95 pÌ-ri-co (Do-cu-
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 17--18
-\T1/lmr/m/n/10.95 ni-mos re-que-ri-dos pa-ra
+Overfull \hbox (5.32083pt too wide) in paragraph at lines 10--21
+ [][] 
  []
 
-) (secciones/cap1_introduccion/1.15_medios.tex) (secciones/cap1_introduccion/1.16_fuentes_informacion.tex) [12] [13]
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.1.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24 
+     ]) (secciones/cap1_introduccion/1.15_medios.tex) (secciones/cap1_introduccion/1.16_fuentes_informacion.tex) [13]
 Cap\'{\i }tulo 2.
 (secciones/cap2_marco_teorico/2.1_marco_historico.tex [14
 
-] [15]) (secciones/cap2_marco_teorico/2.2_marco_contextual.tex [16] [17] [18]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 30.
+] [15]) (secciones/cap2_marco_teorico/2.2_marco_contextual.tex [16]
+
+LaTeX Warning: Citation `hernandez2014' on page 17 undefined on input line 3.
+
+
+LaTeX Warning: Citation `sap2023' on page 17 undefined on input line 7.
+
+
+LaTeX Warning: Citation `odoo2024' on page 17 undefined on input line 7.
+
+
+LaTeX Warning: Citation `sonda2024' on page 17 undefined on input line 11.
+
+
+LaTeX Warning: Citation `noventiq2024' on page 17 undefined on input line 11.
+
+
+LaTeX Warning: Citation `mosquera2025' on page 17 undefined on input line 11.
+
+
+LaTeX Warning: Citation `glpi2024' on page 17 undefined on input line 11.
+
+[17]
+
+LaTeX Warning: Citation `fundacion2026' on page 18 undefined on input line 15.
+
+
+LaTeX Warning: Citation `gs1bolivia2026' on page 18 undefined on input line 15.
+
+
+LaTeX Warning: Citation `glpi2024' on page 18 undefined on input line 15.
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\T1/lmr/bx/n/10.95 SoluciÛn /
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T1/lmr/bx/n/10 SoluciÛn /
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 32--32
-[]|\T1/lmr/bx/n/10 Licencia /
+[]|\T1/lmr/bx/n/10.95 Modelo de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T1/lmr/bx/n/10 Dominio
+[]|\T1/lmr/bx/n/10.95 Dominio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[]|\T1/lmr/bx/n/10 Trazabilidad e
+Underfull \hbox (badness 3780) in paragraph at lines 32--32
+[]|\T1/lmr/bx/n/10.95 Trazabilidad e
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 32--33
-[]|\T1/lmr/bx/n/10 AdecuaciÛn a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T1/lmr/m/n/10 Odoo (Help-
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 34--34
-[]|\T1/lmr/m/n/10 Freemium /
- []
-
-
-Underfull \hbox (badness 7344) in paragraph at lines 34--34
-[]|\T1/lmr/m/n/10 ERP Ge-ne-
+Underfull \hbox (badness 4181) in paragraph at lines 32--33
+[]|\T1/lmr/bx/n/10.95 AdecuaciÛn Fun-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]|\T1/lmr/m/n/10 Trazabilidad de
+[]|\T1/lmr/m/n/10.95 Odoo (Help-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\T1/lmr/m/n/10 tic-kets; IA me-
+[]|\T1/lmr/m/n/10.95 Freemium /
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 34--34
+[]|\T1/lmr/m/n/10.95 ERP Ge-ne-ral
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\T1/lmr/m/n/10 dian-te mÛ-du-los
+[]|\T1/lmr/m/n/10.95 Trazabilidad de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-[]|\T1/lmr/m/n/10 Parcial: Exi-ge
+Underfull \hbox (badness 6173) in paragraph at lines 34--34
+\T1/lmr/m/n/10.95 tic-kets; IA me-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\T1/lmr/m/n/10 con-fi-gu-ra-ciÛn
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/lmr/m/n/10.95 dian-te mÛ-du-los
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-\T1/lmr/m/n/10 com-ple-ja de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/lmr/m/n/10 SAP Ser-vi-ce
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\T1/lmr/m/n/10.95 pro-pie-ta-rios de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/lmr/m/n/10 De Pa-ga
+[]|\T1/lmr/m/n/10.95 SAP Ser-vi-ce
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-\T1/lmr/m/n/10 (Cor-po-ra-ti-
+[]|\T1/lmr/m/n/10.95 Comercial
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/lmr/m/n/10 Gran Em-
+\T1/lmr/m/n/10.95 Pro-pie-ta-rio
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 (SaaS / On-
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 36--36
+\T1/lmr/m/n/10.95 y Cor-po-ra-cio-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-\T1/lmr/m/n/10 pre-sa y
+[]|\T1/lmr/m/n/10.95 Trazabilidad
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--36
-\T1/lmr/m/n/10 Cor-po-ra-cio-
+\T1/lmr/m/n/10.95 avan-za-da; IA
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\T1/lmr/m/n/10 li-cen-cia-mien-to
+[]|\T1/lmr/m/n/10.95 Baja: Com-ple-ji-dad
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\T1/lmr/m/n/10 inac-ce-si-bles
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\T1/lmr/m/n/10 pa-ra ta-lle-res
+\T1/lmr/m/n/10.95 cor-po-ra-ti-vo po-co
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T1/lmr/m/n/10 GLPI (Open
+[]|\T1/lmr/m/n/10.95 GLPI (Open
+ []
+
+
+Underfull \hbox (badness 2359) in paragraph at lines 38--38
+[]|\T1/lmr/m/n/10.95 GestiÛn TI e
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 38--38
+[]|\T1/lmr/m/n/10.95 Trazabilidad por
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T1/lmr/m/n/10 CÛdigo
+\T1/lmr/m/n/10.95 tic-kets; IA vÌa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\T1/lmr/m/n/10 Abier-to
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\T1/lmr/m/n/10.95 Media: En-fo-que
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\T1/lmr/m/n/10 In-ven-ta-rios
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\T1/lmr/m/n/10.95 en de-par-ta-men-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-[]|\T1/lmr/m/n/10 Trazabilidad por
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-\T1/lmr/m/n/10 tic-kets; IA vÌa
+Underfull \hbox (badness 1371) in paragraph at lines 38--39
+\T1/lmr/m/n/10.95 TI in-ter-nos, no en
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/lmr/m/n/10 Est·ndares
+[]|\T1/lmr/m/n/10.95 Trazabilidad
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/m/n/10 In-ter-na-cio-
+\T1/lmr/m/n/10.95 Lo-gÌs-ti-ca y
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/lmr/m/n/10 Trazabilidad
+\T1/lmr/m/n/10.95 CÛ-di-go de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/m/n/10 Lo-gÌs-ti-ca y
+[]|\T1/lmr/m/n/10.95 Est·ndares de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/m/n/10 CÛ-di-go de
+\T1/lmr/m/n/10.95 iden-ti-fi-ca-ciÛn y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T1/lmr/m/n/10 Est·ndares de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T1/lmr/m/n/10 iden-ti-fi-ca-ciÛn y
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 40--40
-\T1/lmr/m/n/10 cÛ-di-gos GS1; sin
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 40--41
-\T1/lmr/m/n/10 mi-nis-tro e in-
+Underfull \hbox (badness 5189) in paragraph at lines 40--41
+[]|\T1/lmr/m/n/10.95 Baja: Orien-ta-do a
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/10 ExpertoSis
+[]|\T1/lmr/m/n/10.95 ExpertoSis
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T1/lmr/m/n/10 (Sis-te-mas de
+\T1/lmr/m/n/10.95 (Sis-te-mas de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/10 Comercial
+[]|\T1/lmr/m/n/10.95 Comercial
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/lmr/m/n/10 GestiÛn de
+[]|\T1/lmr/m/n/10.95 GestiÛn de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T1/lmr/m/n/10 za-bi-li-dad (se-g˙n
+\T1/lmr/m/n/10.95 In-ci-den-cias y
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 42--42
+[]|\T1/lmr/m/n/10.95 GestiÛn de tic-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T1/lmr/m/n/10 es-pe-ci-fi-ca-cio-nes
+\T1/lmr/m/n/10.95 kets y mÛ-du-lo
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T1/lmr/m/n/10 co-mer-cia-les); sin
+\T1/lmr/m/n/10.95 de tra-za-bi-li-dad
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 42--43
-[]|\T1/lmr/m/n/10 Media: En-fo-ca-
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+\T1/lmr/m/n/10.95 pro-vee-do-res co-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 42--43
-\T1/lmr/m/n/10 do en so-por-te
+Underfull \hbox (badness 3536) in paragraph at lines 42--43
+\T1/lmr/m/n/10.95 so-por-te em-pre-sa-rial
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 42--43
-\T1/lmr/m/n/10 em-pre-sa-rial ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/10 Sistema Pro-
+Underfull \hbox (badness 1789) in paragraph at lines 42--43
+\T1/lmr/m/n/10.95 tes con-ver-sa-cio-na-les
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/10 Licencia
+[]|\T1/lmr/m/n/10.95 Sistema Pro-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 Pro-pia
+\T1/lmr/m/n/10.95 (De-sa-rro-llo a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 (Di-se-Òo a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/lmr/m/n/10 Soporte
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 TÈc-ni-co de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 Compu-tado-
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 44--44
-\T1/lmr/m/n/10 li-dad por es-ta-dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 se-cuen-cia-les y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 fi-cas; pro-pues-ta
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T1/lmr/m/n/10 des-aco-pla-do pa-ra
- []
-
-
-Underfull \hbox (badness 4518) in paragraph at lines 44--45
-[]|\T1/lmr/m/n/10 Alta: Di-se-Òa-do
+Underfull \hbox (badness 5345) in paragraph at lines 44--44
+\T1/lmr/m/n/10.95 asis-ten-te de IA
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/lmr/m/n/10 es-pe-cÌ-fi-ca-men-te
- []
-
-
-Underfull \hbox (badness 3635) in paragraph at lines 44--45
-\T1/lmr/m/n/10 pa-ra las di-n·-
+[]|\T1/lmr/m/n/10.95 AdecuaciÛn fun-cio-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/lmr/m/n/10 mi-cas de los
+\T1/lmr/m/n/10.95 a eva-lua-ciÛn em-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/lmr/m/n/10 ta-lle-res in-de-
+Overfull \hbox (31.5472pt too wide) in paragraph at lines 30--47
+ [][] 
  []
 
+) (secciones/cap2_marco_teorico/2.3_marco_conceptual.tex [19]
+Overfull \vbox (37.718pt too high) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-\T1/lmr/m/n/10 pen-dien-tes de
- []
-
-) (secciones/cap2_marco_teorico/2.3_marco_conceptual.tex [19] [20
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.4 
-    ] [21] [22] [23] [24] [25]) (secciones/cap2_marco_teorico/2.4_marco_normativo.tex [26] [27]) (secciones/cap2_marco_teorico/2.5_marco_referencial.tex [28] [29]
-Overfull \hbox (8.58287pt too wide) in paragraph at lines 38--39
-[]\T1/lmr/bx/sc/12 Mecanismo de Des-aco-pla-mien-to y Con-trol de Ac-ce-so (API REST HTTPS
+l.1 \section
+            {Marco Conceptual}]
+
+LaTeX Warning: Citation `pressman2021' on page 21 undefined on input line 7.
+
+
+LaTeX Warning: Citation `sommerville2019' on page 21 undefined on input line 7.
+
+
+LaTeX Warning: Citation `laudon2020' on page 21 undefined on input line 9.
+
+
+LaTeX Warning: Citation `laudon2020' on page 21 undefined on input line 13.
+
+
+LaTeX Warning: Citation `pressman2021' on page 21 undefined on input line 13.
+
+[21]
+
+LaTeX Warning: Citation `swanson1980' on page 22 undefined on input line 15.
+
+
+LaTeX Warning: Citation `pressman2021' on page 22 undefined on input line 15.
+
+
+LaTeX Warning: Citation `sommerville2019' on page 22 undefined on input line 15.
+
+
+LaTeX Warning: Citation `iso14764' on page 22 undefined on input line 15.
+
+
+Overfull \hbox (0.20535pt too wide) in paragraph at lines 21--22
+[]\T1/lmr/bx/n/12 Mantenimiento Pre-dic-ti-vo de Hard-wa-re: \T1/lmr/m/n/12 Mo-ni-to-reo de va-ria-bles fÌ-si-cas (tem-
  []
 
-) (main.bbl [30]
-Underfull \hbox (badness 1152) in paragraph at lines 26--30
+
+LaTeX Warning: Citation `iso14764' on page 22 undefined on input line 24.
+
+
+LaTeX Warning: Citation `pressman2021' on page 22 undefined on input line 24.
+
+
+LaTeX Warning: Citation `axelos2019' on page 22 undefined on input line 35.
+
+
+LaTeX Warning: Citation `axelos2019' on page 22 undefined on input line 35.
+
+
+LaTeX Warning: Citation `isaca2019' on page 22 undefined on input line 35.
+
+[22]
+
+LaTeX Warning: Citation `gotel1994' on page 23 undefined on input line 48.
+
+
+LaTeX Warning: Citation `moe1998' on page 23 undefined on input line 48.
+
+
+LaTeX Warning: Citation `ramesh2001' on page 23 undefined on input line 48.
+
+
+LaTeX Warning: Citation `olsen2002' on page 23 undefined on input line 48.
+
+[23]
+
+LaTeX Warning: Citation `moe1998' on page 24 undefined on input line 61.
+
+
+LaTeX Warning: Citation `olsen2002' on page 24 undefined on input line 61.
+
+[24]
+
+LaTeX Warning: Citation `pressman2021' on page 25 undefined on input line 65.
+
+
+LaTeX Warning: Citation `pilone2018' on page 25 undefined on input line 67.
+
+[25]
+
+LaTeX Warning: Citation `iso29148' on page 26 undefined on input line 77.
+
+
+Overfull \hbox (20.19649pt too wide) in paragraph at lines 79--79
+\T1/lmr/bx/n/14.4 de Len-gua-je (LLM), Agen-tes Con-ver-sa-cio-na-les y Prompt
+ []
+
+
+LaTeX Warning: Citation `russell2021' on page 26 undefined on input line 81.
+
+
+LaTeX Warning: Citation `googleai2026' on page 26 undefined on input line 86.
+
+[26] [27]
+
+LaTeX Warning: Citation `ferraiolo1992' on page 28 undefined on input line 97.
+
+
+LaTeX Warning: Citation `nist2014' on page 28 undefined on input line 97.
+
+[28]) (secciones/cap2_marco_teorico/2.4_marco_normativo.tex [29]
+Overfull \hbox (12.26999pt too wide) in paragraph at lines 24--24
+[][]\T1/lmr/bx/n/12 Matriz Ope-ra-ti-va de Eva-lua-ciÛn de Ca-li-dad del MVP (ISO/IEC 25010:2023) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/lmr/bx/n/10.95 DimensiÛn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/lmr/bx/n/10.95 Indicador
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/lmr/bx/n/10.95 MÈtodo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\T1/lmr/bx/n/10.95 Ve-ri-fi-ca-ciÛn /
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 35--35
+[]|\T1/lmr/bx/n/10.95 Instrumento /
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 35--36
+[]|\T1/lmr/bx/n/10.95 Criterio de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/10.95 AdecuaciÛn
+ []
+
+
+Underfull \hbox (badness 6927) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/10.95 Cobertura de
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 37--37
+[]|\T1/lmr/m/n/10.95 Script de prue-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 bas fun-cio-na-les
+ []
+
+
+Underfull \hbox (badness 5064) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 ($\OMS/lmsy/m/n/10.95 ^^X$\T1/lmr/m/n/10.95 20 flu-jos n˙-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 cleo: Re-cep-ciÛn,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 Diag-nÛs-ti-co,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 Au-to-ri-za-ciÛn,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 Re-pa-ra-ciÛn,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\T1/lmr/m/n/10.95 Asis-ten-te IA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/lmr/m/n/10.95 Capacidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/lmr/m/n/10.95 de In-ter-ac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/lmr/m/n/10.95 PuntuaciÛn
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 39--39
+\T1/lmr/m/n/10.95 de Usa-bi-li-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/lmr/m/n/10.95 Cuestionario
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 39--39
+\T1/lmr/m/n/10.95 Sys-tem Usa-bi-lity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/lmr/m/n/10.95 Escala SUS a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/lmr/m/n/10.95 mues-tra pi-lo-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\T1/lmr/m/n/10.95 5 tÈc-ni-cos, 15
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+[]|\T1/lmr/m/n/10.95 Fiabilidad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T1/lmr/m/n/10.95 (Con-fia-bi-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+\T1/lmr/m/n/10.95 Tran-sac-cio-na-
+ []
+
+
+Underfull \hbox (badness 4899) in paragraph at lines 41--41
+[]|\T1/lmr/m/n/10.95 Logs de apli-ca-
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 41--41
+\T1/lmr/m/n/10.95 es-trÈs (50 tran-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 41--41
+\T1/lmr/m/n/10.95 sac-cio-nes si-mu-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\T1/lmr/m/n/10.95 la In-for-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/lmr/m/n/10.95 Efectividad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\T1/lmr/m/n/10.95 de Con-tro-les
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\T1/lmr/m/n/10.95 (Peticiones no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\T1/lmr/m/n/10.95 au-to-ri-za-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\T1/lmr/m/n/10.95 blo-quea-das /
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 43--43
+\T1/lmr/m/n/10.95 RBAC, UUIDv4,
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 43--44
+[]|\T1/lmr/m/n/10.95 100$ $% in-ten-
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 43--44
+\T1/lmr/m/n/10.95 tos blo-quea-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 De-sem-pe-Òo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/lmr/m/n/10.95 Tiempo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 Res-pues-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 HTTP Bac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/lmr/m/n/10.95 Tiempo pro-me-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 dio de res-pues-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 HTTP en API
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/lmr/m/n/10.95 Herramienta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 Apa-che-Bench
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 45--45
+\T1/lmr/m/n/10.95 / JMe-ter so-bre
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]|\T1/lmr/m/n/10.95 Latencia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\T1/lmr/m/n/10.95 De-sem-pe-Òo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\T1/lmr/m/n/10.95 (Asis-ten-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/lmr/m/n/10.95 Tiempo de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/lmr/m/n/10.95 MediciÛn del
+ []
+
+
+Underfull \hbox (badness 3078) in paragraph at lines 47--47
+\T1/lmr/m/n/10.95 tiem-po to-tal de
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 47--47
+\T1/lmr/m/n/10.95 res-pues-ta de la
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 47--47
+[]|\T1/lmr/m/n/10.95 Logs de pe-ti-cio-
+ []
+
+
+Overfull \hbox (3.09444pt too wide) in paragraph at lines 33--50
+ [][] 
+ []
+
+) (secciones/cap2_marco_teorico/2.5_marco_referencial.tex [30] [31
+pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.4 
+    {D:/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+LaTeX Warning: Citation `php2024' on page 32 undefined on input line 8.
+
+
+LaTeX Warning: Citation `mosquera2025' on page 32 undefined on input line 8.
+
+
+LaTeX Warning: Citation `velasco2023' on page 32 undefined on input line 8.
+
+
+LaTeX Warning: Citation `ecma2023' on page 32 undefined on input line 9.
+
+
+LaTeX Warning: Citation `w3c2023' on page 32 undefined on input line 10.
+
+
+LaTeX Warning: Citation `otwell2024' on page 32 undefined on input line 16.
+
+[32]
+
+LaTeX Warning: Citation `otto2023' on page 33 undefined on input line 17.
+
+
+LaTeX Warning: Citation `oracle2024' on page 33 undefined on input line 23.
+
+
+LaTeX Warning: Citation `omg2017' on page 33 undefined on input line 30.
+
+[33]
+
+LaTeX Warning: Citation `googleai2026' on page 34 undefined on input line 36.
+
+
+Overfull \hbox (8.58287pt too wide) in paragraph at lines 38--39
+[]\T1/lmr/bx/n/12 Mecanismo de Des-aco-pla-mien-to y Con-trol de Ac-ce-so (API REST HTTPS
+ []
+
+) (main.bbl [34]
+
+main.bbl:1: LaTeX Error: Unicode character ¬Å (U+0081)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{}
+                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 27--32
 []\T1/lmr/m/n/12 Estado Plu-ri-na-cio-nal de Bo-li-via (2009).
  []
 
+[35
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
-[]\T1/lmr/m/n/12 FundaciÛn Em-pren-der Fu-tu-ro,
+]
+Underfull \hbox (badness 10000) in paragraph at lines 82--86
+[]\T1/lmr/m/n/12 Hern√\TS1/lmr/m/n/12 å\T1/lmr/m/n/12 ¬Ωndez Sam-pie-ri, R., Fer-
  []
 
-[31
-
-] [32]
-Underfull \hbox (badness 1024) in paragraph at lines 183--188
-[]\T1/lmr/m/n/12 Rivera Gua-m·n, B. F. (2024).  Chat-bot in-te-gra-do a
+[36]
+Underfull \hbox (badness 5667) in paragraph at lines 197--200
+[]\T1/lmr/m/n/12 Pressman, R. S. and Ma-xim, B. R. (2021).
  []
 
-[33]) [34] (main.aux
+[37]) [38] (main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -970,23 +1352,32 @@ L3 programming layer <2025-12-24>
  ***********
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9C89E7F7617B9266CCB88ACDBBE1447F;15351.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  3C4E4779CB6C8C493BB5F628E62DD578;16058.
  ) 
 Here is how much of TeX's memory you used:
- 12539 strings out of 467870
- 199799 string characters out of 5435189
- 642826 words of memory out of 5000000
- 40985 multiletter control sequences out of 15000+600000
- 700992 words of font info for 81 fonts, out of 8000000 for 9000
+ 12473 strings out of 467870
+ 198665 string characters out of 5435189
+ 639395 words of memory out of 5000000
+ 40920 multiletter control sequences out of 15000+600000
+ 682017 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,10n,82p,2387b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><D:/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (40 pages, 347071 bytes).
+ 80i,11n,82p,2533b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr10.pfb><D:/MiKTeX/fonts/type1/public/lm/lmr12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmri12.pfb><D:/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (42 pages, 314333 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

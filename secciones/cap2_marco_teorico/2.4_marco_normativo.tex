@@ -7,9 +7,9 @@ El marco normativo identifica y analiza las disposiciones legales vigentes en el
 El ordenamiento jurídico boliviano establece las garantías fundamentales para la protección de la información ciudadana y la formalización de las relaciones contractuales y comerciales en entornos digitales:
 
 \begin{itemize}
-\item \textbf{Constitución Política del Estado Plurinacional de Bolivia:} El Artículo 21 (inciso 2) consagra el derecho fundamental de toda persona a la privacidad, intimidad, honra, propia imagen y dignidad. Asimismo, el Artículo 130 establece la Acción de Protección de Privacidad, otorgando a toda persona la facultad de conocer, actualizar o rectificar los datos personales registrados en bancos de datos públicos o privados. El diseño del software incorpora este mandato al restringir la visibilidad de los datos personales del cliente exclusivamente al personal autorizado del taller.
-\item \textbf{Ley N.º 164 (Ley General de Telecomunicaciones y TIC):} Promulgada el 8 de agosto de 2011, esta ley establece el marco regulatorio general para las tecnologías de la información y comunicación. Sus Artículos 6 y 54 reconocen la inviolabilidad y el secreto de las comunicaciones electrónicas, así como la plena validez jurídica y probatoria de los mensajes de datos, documentos electrónicos y firmas digitales. La propuesta cumple esta norma al formalizar la emisión del comprobante digital de servicio y el registro auditable de autorizaciones del cliente.
-\item \textbf{Ley N.º 453 (Ley General de los Derechos de las Usuarias y los Usuarios y de las Consumidoras y los Consumidores):} Promulgada el 4 de diciembre de 2013, esta norma regula las relaciones entre proveedores de servicios y consumidores. En su Artículo 11 (incisos 1, 2 y 3) consagra el derecho de las usuarias y los usuarios a recibir información fidedigna, veraz, oportuna, clara y completa sobre las características, precios y condiciones de los servicios contratados, así como a un trato equitativo y sin discriminación. El sistema propuesto respalda directamente este derecho al ofrecer a los clientes acceso transparente y continuo al estado de su equipo y al detalle pormenorizado de los costos de reparación.
+    \item \textbf{Constitución Política del Estado Plurinacional de Bolivia:} El Artículo 21 (inciso 2) consagra el derecho fundamental de toda persona a la privacidad, intimidad, honra, propia imagen y dignidad. Asimismo, el Artículo 130 establece la Acción de Protección de Privacidad, otorgando a toda persona la facultad de conocer, actualizar o rectificar los datos personales registrados en bancos de datos públicos o privados. El diseño del software incorpora este mandato al restringir la visibilidad de los datos personales del cliente exclusivamente al personal autorizado del taller.
+    \item \textbf{Ley N.º 164 (Ley General de Telecomunicaciones y TIC):} Promulgada el 8 de agosto de 2011, esta ley establece el marco regulatorio general para las tecnologías de la información y comunicación. Sus Artículos 6 y 54 reconocen la inviolabilidad y el secreto de las comunicaciones electrónicas, así como la plena validez jurídica y probatoria de los mensajes de datos, documentos electrónicos y firmas digitales. La propuesta cumple esta norma al formalizar la emisión del comprobante digital de servicio y el registro auditable de autorizaciones del cliente.
+    \item \textbf{Ley N.º 453 (Ley General de los Derechos de las Usuarias y los Usuarios y de las Consumidoras y los Consumidores):} Promulgada el 4 de diciembre de 2013, esta norma regula las relaciones entre proveedores de servicios y consumidores. En su Artículo 11 (incisos 1, 2 y 3) consagra el derecho de las usuarias y los usuarios a recibir información fidedigna, veraz, oportuna, clara y completa sobre las características, precios y condiciones de los servicios contratados, así como a un trato equitativo y sin discriminación. El sistema propuesto respalda directamente este derecho al ofrecer a los clientes acceso transparente y continuo al estado de su equipo y al detalle pormenorizado de las intervenciones técnicas realizadas.
 \end{itemize}
 
 \subsection{Estándares Técnicos Internacionales de Calidad y Seguridad}
@@ -17,6 +17,34 @@ El ordenamiento jurídico boliviano establece las garantías fundamentales para 
 En el ámbito de la ingeniería de software, la aplicación de normas internacionales asegura que el artefacto diseñado satisfaga criterios rigurosos de calidad estructural y operativa:
 
 \begin{itemize}
-\item \textbf{Estándar ISO/IEC 25010:2023 (Modelos de Calidad del Producto Software):} Pertenece a la familia SQuaRE (Software Product Quality Requirements and Evaluation) y en su edición de 2023 define un modelo para evaluar la calidad del producto software a través de nueve características principales: adecuación funcional (functional suitability), eficiencia de desempeño (performance efficiency), compatibilidad (compatibility), capacidad de interacción (interaction capability), fiabilidad (reliability), seguridad (security), mantenibilidad (maintainability), flexibilidad (flexibility) y protección frente a riesgos (safety). Para la especificación de requerimientos no funcionales del sistema propuesto, se priorizan la adecuación funcional, la capacidad de interacción, la fiabilidad y la seguridad informacional.
-\item \textbf{Estándares ISO/IEC 27001 e ISO/IEC 27002 (Seguridad de la Información):} La norma ISO/IEC 27001 especifica los requisitos para establecer, implementar, mantener y mejorar un Sistema de Gestión de la Seguridad de la Información (SGSI), mientras que la norma ISO/IEC 27002 actúa como una guía de buenas prácticas que describe controles de seguridad aplicables a la gestión de accesos, protección de contraseñas mediante funciones criptográficas unidireccionales (hashing con algoritmos seguros como Bcrypt), generación de copias de respaldo de la base de datos y políticas de auditoría interna de transacciones.
+    \item \textbf{Estándar ISO/IEC 25010:2023 (Modelos de Calidad del Producto Software):} Pertenece a la familia SQuaRE (Software Product Quality Requirements and Evaluation) y en su edición de 2023 define un modelo para evaluar la calidad del producto software a través de nueve características principales: adecuación funcional (functional suitability), eficiencia de desempeño (performance efficiency), compatibilidad (compatibility), capacidad de interacción (interaction capability), fiabilidad (reliability), seguridad (security), mantenibilidad (maintainability), flexibilidad (flexibility) y protección frente a riesgos (safety). Para la especificación de requerimientos no funcionales del sistema propuesto, se priorizan la adecuación funcional, la capacidad de interacción, la fiabilidad y la seguridad informacional.
+    \item \textbf{Estándares ISO/IEC 27001 e ISO/IEC 27002 (Seguridad de la Información):} La norma ISO/IEC 27001 especifica los requisitos para establecer, implementar, mantener y mejorar un Sistema de Gestión de la Seguridad de la Información (SGSI), mientras que la norma ISO/IEC 27002 actúa como una guía de buenas prácticas que describe controles de seguridad aplicables a la gestión de accesos, protección de contraseñas mediante funciones criptográficas unidireccionales (hashing con algoritmos seguros como Bcrypt), generación de copias de respaldo de la base de datos y políticas de auditoría interna de transacciones.
 \end{itemize}
+
+\subsubsection{Matriz Operativa de Evaluación de Calidad del MVP (ISO/IEC 25010:2023)}
+
+Para operacionalizar la evaluación del prototipo funcional (MVP) de acuerdo con el Objetivo Específico 5, la propuesta establece una matriz de métricas e indicadores de calidad fundamentada en el estándar ISO/IEC 25010:2023, la cual se aplicará en el entorno de pruebas durante Taller de Grado II:
+
+\begin{table}[H]
+\centering
+\caption{Matriz operativa de evaluación de calidad del MVP según ISO/IEC 25010:2023}
+\label{tab:matriz-iso25010}
+\small
+\begin{tabular}{p{2.2cm} p{2.5cm} p{3cm} p{3cm} p{2.3cm}}
+\toprule
+\textbf{Dimensión de Calidad} & \textbf{Indicador Técnico} & \textbf{Método de Verificación / Cálculo} & \textbf{Instrumento / Entorno} & \textbf{Criterio de Aceptación} \\
+\midrule
+Adecuación Funcional & Cobertura de Casos de Prueba & (Casos de prueba aprobados / Ejecutados) $\times$ 100 & Script de pruebas funcionales ($\sim$20 flujos núcleo: Recepción, Diagnóstico, Autorización, Reparación, Pruebas, Entrega, Asistente IA, RBAC) & $\geq$ 95\% casos aprobados \\
+\addlinespace
+Capacidad de Interacción & Puntuación de Usabilidad Percibida & Cuestionario System Usability Scale (SUS) & Escala SUS a muestra piloto (20 participantes: 5 técnicos, 15 clientes) & Puntaje SUS $\geq$ 75/100 \\
+\addlinespace
+Fiabilidad (Confiabilidad) & Tasa de Fallos Transaccionales & (Transacciones fallidas / Probadas) $\times$ 100 & Logs de aplicación y pruebas de estrés (50 transacciones simuladas) & 0\% fallos en transiciones \\
+\addlinespace
+Seguridad de la Información & Efectividad de Controles RBAC & (Peticiones no autorizadas bloqueadas / Intentos) $\times$ 100 & Pruebas de penetración y auditoría (30 escenarios: RBAC, UUIDv4, prompt injection) & 100\% intentos bloqueados \\
+\addlinespace
+Eficiencia de Desempeño (Backend) & Tiempo de Respuesta HTTP Backend & Tiempo promedio de respuesta HTTP en API REST interna & Herramienta ApacheBench / JMeter sobre servidor Laravel & Latencia HTTP $\leq$ 2,0 s \\
+\addlinespace
+Eficiencia de Desempeño (Asistente IA) & Tiempo de Respuesta API del LLM & Medición del tiempo total de respuesta de la API externa & Logs de peticiones REST a Google Gemini API & Latencia API IA $\leq$ 4,0 s \\
+\bottomrule
+\end{tabular}
+\end{table}
