@@ -1,39 +1,60 @@
 \babel@toc {spanish}{}\relax 
+\contentsline {chapter}{RESUMEN}{1}{chapter*.1}%
+\contentsline {chapter}{ABSTRACT}{\es@scroman {i}}{chapter*.2}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Antecedentes internacionales}{1}{subsection.1.1.1}%
-\contentsline {subsubsection}{Investigación 1: \enquote {Helpdesk como alternativa de soporte y gestión tecnológica para una empresa tabasqueña} (Ortiz González, Gómez Lemus y Zurita Cruz, 2021)}{1}{section*.2}%
-\contentsline {paragraph}{Aporte al proyecto.}{2}{section*.3}%
-\contentsline {subsubsection}{Investigación 2: \enquote {Desarrollo de una plataforma web para la gestión de órdenes de servicio de la empresa Computech} (Mosquera Perea, Mazo Agudelo y Martínez Herrera, 2025)}{2}{section*.4}%
-\contentsline {paragraph}{Aporte al proyecto.}{2}{section*.5}%
-\contentsline {subsection}{\numberline {1.1.2}Síntesis conclusiva del estado del arte}{3}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Delimitación}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Límite sustantivo}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Límite temporal}{3}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Límite geográfico}{3}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}Planteamiento del problema}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Formulación del problema}{4}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Sistematización del problema y abordaje de la solución}{4}{section.1.5}%
-\contentsline {paragraph}{Criterios de verificación.}{5}{section*.8}%
-\contentsline {section}{\numberline {1.6}Objetivos}{6}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Objetivo general}{6}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Objetivos específicos}{6}{subsection.1.6.2}%
-\contentsline {section}{\numberline {1.7}Justificación}{6}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Justificación técnica}{6}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Justificación social}{7}{subsection.1.7.2}%
-\contentsline {subsection}{\numberline {1.7.3}Justificación económica}{7}{subsection.1.7.3}%
-\contentsline {subsection}{\numberline {1.7.4}Justificación medioambiental}{7}{subsection.1.7.4}%
-\contentsline {section}{\numberline {1.8}Metodología de la investigación}{7}{section.1.8}%
-\contentsline {section}{\numberline {1.9}Enfoque de la investigación}{7}{section.1.9}%
-\contentsline {section}{\numberline {1.10}Nivel de investigación}{8}{section.1.10}%
-\contentsline {section}{\numberline {1.11}Tipo de estudio}{8}{section.1.11}%
-\contentsline {section}{\numberline {1.12}Métodos de investigación}{8}{section.1.12}%
-\contentsline {section}{\numberline {1.13}Población, tipo de muestreo y muestra}{8}{section.1.13}%
-\contentsline {section}{\numberline {1.14}Técnicas e instrumentos de recolección de datos}{8}{section.1.14}%
-\contentsline {section}{\numberline {1.15}Medios}{9}{section.1.15}%
-\contentsline {section}{\numberline {1.16}Fuentes de información}{9}{section.1.16}%
-\contentsline {chapter}{\numberline {2}Marco teórico}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Marco histórico}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Marco contextual}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Marco conceptual}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Marco normativo}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {1.1.1}Antecedentes Internacionales}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Antecedentes Nacionales}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Antecedentes Locales}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Síntesis Conclusiva del Estado del Arte}{5}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Delimitación}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Límite Sustantivo}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Límite Temporal}{5}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Límite Geográfico}{5}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}Planteamiento del problema}{6}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Formulación del problema}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Sistematización del problema y abordaje de la solución}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Objetivos}{7}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Objetivo General}{7}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Objetivos Específicos}{8}{subsection.1.6.2}%
+\contentsline {section}{\numberline {1.7}Justificación}{8}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Justificación Técnica}{8}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Justificación Social}{9}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Justificación Económica}{9}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Justificación Medioambiental}{9}{subsection.1.7.4}%
+\contentsline {section}{\numberline {1.8}Metodología de la investigación}{10}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Enfoque de la investigación}{10}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Nivel de investigación}{10}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Tipo de estudio}{10}{section.1.11}%
+\contentsline {section}{\numberline {1.12}Métodos de investigación}{10}{section.1.12}%
+\contentsline {section}{\numberline {1.13}Población, tipo de muestreo y muestra}{11}{section.1.13}%
+\contentsline {section}{\numberline {1.14}Técnicas e instrumentos de recolección de datos}{12}{section.1.14}%
+\contentsline {section}{\numberline {1.15}Medios}{12}{section.1.15}%
+\contentsline {section}{\numberline {1.16}Fuentes de información}{13}{section.1.16}%
+\contentsline {chapter}{\numberline {2}Marco teórico}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Marco Histórico}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Evolución del soporte técnico informático y modelos de mantenimiento}{14}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}De las boletas físicas a los sistemas de Help Desk y gestión de tickets}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Marcos de buenas prácticas de gobernanza y gestión de servicios TI (ITIL y COBIT)}{15}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Evolución de la trazabilidad y canales de comunicación con el cliente}{16}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Marco Contextual}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Contexto internacional del soporte técnico y la trazabilidad de servicios TI}{17}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Contexto latinoamericano y brechas operativas en micro y pequeñas empresas}{17}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Contexto nacional (Bolivia) y madurez del ecosistema digital}{18}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Contexto local (Ciudad de Tarija) y dinámicas operativas de los talleres independientes}{18}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Fundamentos de Ingeniería de Software y Sistemas de Información}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Gestión de Servicios de Soporte Técnico y Help Desk}{21}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Trazabilidad, ciclo de vida de órdenes de servicio y persistencia relacional}{22}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Arquitectura de Software, Modelado UML e Ingeniería de Requerimientos}{23}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Asistencia mediante Inteligencia Artificial: Modelos de Lenguaje (LLM), Prompt Engineering y PLN}{24}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Seguridad de la Información, Control de Acceso Basado en Roles (RBAC) y Privacidad}{26}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Marco Normativo}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Marco Jurídico Nacional (Bolivia)}{27}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Estándares Técnicos Internacionales de Calidad y Seguridad}{27}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Marco Referencial (Pila Tecnológica del Sistema)}{28}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Entorno de Desarrollo y Lenguajes de Programación}{28}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Marcos de Trabajo (Frameworks) y Librerías de Interfaz}{29}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Motor de Base de Datos y Persistencia Relacional}{29}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Herramientas de Modelado de Software y Documentación}{30}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Pila Tecnológica de Inteligencia Artificial Conversacional}{30}{subsection.2.5.5}%

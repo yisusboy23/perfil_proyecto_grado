@@ -1,3 +1,238 @@
 \begin{thebibliography}{}
 
+\bibitem[{AXELOS}, 2019]{axelos2019}
+{AXELOS} (2019).
+\newblock {\em ITIL Foundation: ITIL 4 Edition}.
+\newblock TSO (The Stationery Office).
+
+\bibitem[Carrasco~Díaz, 2009]{carrasco2009}
+Carrasco~Díaz, S. (2009).
+\newblock {\em Metodología de la investigación científica: Pautas
+  metodológicas para diseñar y elaborar el proyecto de investigación}.
+\newblock Editorial San Marcos, 2 edition.
+
+\bibitem[DeLone and McLean, 2003]{delone2003}
+DeLone, W.~H. and McLean, E.~R. (2003).
+\newblock The delone and mclean model of information systems success: A
+  ten-year update.
+\newblock {\em Journal of Management Information Systems}, 19(4):9--30.
+
+\bibitem[{ECMA International}, 2023]{ecma2023}
+{ECMA International} (2023).
+\newblock Ecmascript 2023 language specification (ecma-262).
+\newblock ECMA International.
+
+\bibitem[{Estado Plurinacional de Bolivia}, 2009]{cpe2009}
+{Estado Plurinacional de Bolivia} (2009).
+\newblock Constitución política del estado plurinacional de bolivia.
+\newblock Gaceta Oficial del Estado Plurinacional de Bolivia, 7 de febrero de
+  2009.
+
+\bibitem[{Estado Plurinacional de Bolivia}, 2011]{ley164}
+{Estado Plurinacional de Bolivia} (2011).
+\newblock Ley n.º 164: Ley general de telecomunicaciones, tecnologías de
+  información y comunicación.
+\newblock Gaceta Oficial del Estado Plurinacional de Bolivia, 8 de agosto de
+  2011.
+
+\bibitem[{Estado Plurinacional de Bolivia}, 2013]{ley453}
+{Estado Plurinacional de Bolivia} (2013).
+\newblock Ley n.º 453: Ley general de los derechos de las usuarias y los
+  usuarios y de las consumidoras y los consumidores.
+\newblock Gaceta Oficial del Estado Plurinacional de Bolivia, 4 de diciembre de
+  2013.
+
+\bibitem[Ferraiolo and Kuhn, 1992]{ferraiolo1992}
+Ferraiolo, D.~F. and Kuhn, D.~R. (1992).
+\newblock Role-based access controls.
+\newblock In {\em 15th National Computer Security Conference}, pages 554--563.
+
+\bibitem[{Fundación Emprender Futuro} et~al., 2026]{fundacion2026}
+{Fundación Emprender Futuro}, {FUNDA-PRÓ}, {Aceleratec UPB}, and {UCB}
+  (2026).
+\newblock Mapeo del ecosistema de tecnología digital en bolivia 2026.
+\newblock Fundación Emprender Futuro.
+
+\bibitem[{GLPI Project}, 2024]{glpi2024}
+{GLPI Project} (2024).
+\newblock Glpi: Open source it asset management, issue tracking and service
+  desk.
+\newblock Teclib.
+
+\bibitem[{Google AI}, 2026]{googleai2026}
+{Google AI} (2026).
+\newblock Gemini api documentation.
+\newblock Google for Developers.
+
+\bibitem[{GS1 Bolivia}, 2026]{gs1bolivia2026}
+{GS1 Bolivia} (2026).
+\newblock Estándares de trazabilidad y código de barras en bolivia.
+\newblock GS1 Bolivia.
+
+\bibitem[Hernández~Sampieri et~al., 2014]{hernandez2014}
+Hernández~Sampieri, R., Fernández~Collado, C., and Baptista~Lucio, P. (2014).
+\newblock {\em Metodología de la investigación}.
+\newblock McGraw-Hill Education, 6 edition.
+
+\bibitem[{ISACA}, 2019]{isaca2019}
+{ISACA} (2019).
+\newblock Cobit 2019 framework: Governance and management objectives.
+\newblock ISACA.
+
+\bibitem[{ISO/IEC}, 2022a]{iso27002}
+{ISO/IEC} (2022a).
+\newblock Information security, cybersecurity and privacy protection ---
+  information security controls (iso/iec 27002:2022).
+\newblock International Organization for Standardization.
+
+\bibitem[{ISO/IEC}, 2022b]{iso27001}
+{ISO/IEC} (2022b).
+\newblock Information security, cybersecurity and privacy protection ---
+  information security management systems --- requirements (iso/iec
+  27001:2022).
+\newblock International Organization for Standardization.
+
+\bibitem[{ISO/IEC}, 2023]{iso25010}
+{ISO/IEC} (2023).
+\newblock Systems and software engineering --- systems and software quality
+  requirements and evaluation (square) --- product quality model (iso/iec
+  25010:2023).
+\newblock International Organization for Standardization.
+
+\bibitem[{ISO/IEC/IEEE}, 2018]{iso29148}
+{ISO/IEC/IEEE} (2018).
+\newblock Systems and software engineering --- life cycle processes ---
+  requirements engineering (iso/iec/ieee 29148:2018).
+\newblock Institute of Electrical and Electronics Engineers.
+
+\bibitem[Laudon and Laudon, 2020]{laudon2020}
+Laudon, K.~C. and Laudon, J.~P. (2020).
+\newblock {\em Sistemas de información gerencial}.
+\newblock Pearson Educación, 16 edition.
+
+\bibitem[Moe, 1998]{moe1998}
+Moe, R. (1998).
+\newblock Perspectives on traceability in software engineering.
+\newblock {\em Software Process: Improvement and Practice}, 4(3):125--138.
+
+\bibitem[Mosquera~Perea et~al., 2025]{mosquera2025}
+Mosquera~Perea, L.~F., Mazo~Agudelo, M.~S., and Martínez~Herrera, E. (2025).
+\newblock Desarrollo de una plataforma web para la gestión de órdenes de
+  servicio de la empresa computech.
+\newblock Trabajo de grado de Tecnólogo, Universidad Católica de Pereira.
+
+\bibitem[{NIST}, 2014]{nist2014}
+{NIST} (2014).
+\newblock Guide to attribute based access control (abac) definition and
+  considerations (nist special publication 800-162).
+\newblock National Institute of Standards and Technology.
+
+\bibitem[{Noventiq}, 2024]{noventiq2024}
+{Noventiq} (2024).
+\newblock Servicios de transformación digital y gestión de ti en américa
+  latina.
+\newblock Noventiq.
+
+\bibitem[{Object Management Group}, 2017]{omg2017}
+{Object Management Group} (2017).
+\newblock Unified modeling language (omg uml), version 2.5.1.
+\newblock Object Management Group.
+
+\bibitem[{Odoo S.A.}, 2024]{odoo2024}
+{Odoo S.A.} (2024).
+\newblock Odoo helpdesk and repair user documentation.
+\newblock Odoo S.A.
+
+\bibitem[Olsen and Aschan, 2002]{olsen2002}
+Olsen, P. and Aschan, M. (2002).
+\newblock Traceability in processing and supply chains.
+\newblock {\em Trends in Food Science \& Technology}, 13(8):275--285.
+
+\bibitem[{Oracle Corporation}, 2024]{oracle2024}
+{Oracle Corporation} (2024).
+\newblock Mysql 8.0 reference manual.
+\newblock Oracle.
+
+\bibitem[Ortiz~González et~al., 2021]{ortiz2021}
+Ortiz~González, A., Gómez~Lemus, M.~A., and Zurita~Cruz, K.~A. (2021).
+\newblock Helpdesk como alternativa de soporte y gestión tecnológica para una
+  empresa tabasqueña.
+\newblock {\em EPISTEMUS}, 15(30):46--53.
+
+\bibitem[Otto and Thornton, 2023]{otto2023}
+Otto, M. and Thornton, J. (2023).
+\newblock Bootstrap 5 documentation.
+\newblock Bootstrap Team.
+
+\bibitem[Otwell, 2024]{otwell2024}
+Otwell, T. (2024).
+\newblock Laravel documentation (version 11.x).
+\newblock Laravel.
+
+\bibitem[Pilone and Pitman, 2018]{pilone2018}
+Pilone, D. and Pitman, N. (2018).
+\newblock {\em UML 2.0 in a nutshell}.
+\newblock O'Reilly Media.
+
+\bibitem[Pressman and Maxim, 2021]{pressman2021}
+Pressman, R.~S. and Maxim, B.~R. (2021).
+\newblock {\em Ingeniería del software: Un enfoque práctico}.
+\newblock McGraw-Hill Education, 9 edition.
+
+\bibitem[Rivera~Guamán, 2024]{rivera2024}
+Rivera~Guamán, B.~F. (2024).
+\newblock Chatbot integrado a whatsapp para atención al cliente en una
+  pizzería, mediante el uso de dialogflow.
+\newblock Trabajo de integración curricular, Universidad Técnica Particular
+  de Loja.
+
+\bibitem[Russell and Norvig, 2021]{russell2021}
+Russell, S. and Norvig, P. (2021).
+\newblock {\em Inteligencia artificial: Un enfoque moderno}.
+\newblock Pearson Educación, 4 edition.
+
+\bibitem[{SAP SE}, 2023]{sap2023}
+{SAP SE} (2023).
+\newblock Sap service cloud documentation.
+\newblock SAP SE.
+
+\bibitem[Sommerville, 2019]{sommerville2019}
+Sommerville, I. (2019).
+\newblock {\em Ingeniería del software}.
+\newblock Pearson Educación, 10 edition.
+
+\bibitem[{Sonda S.A.}, 2024]{sonda2024}
+{Sonda S.A.} (2024).
+\newblock Soluciones de soporte e infraestructura de ti en américa latina.
+\newblock Sonda.
+
+\bibitem[Swanson, 1980]{swanson1980}
+Swanson, E.~B. (1980).
+\newblock Dimensions of maintenance.
+\newblock In {\em Proceedings of the 2nd International Conference on Software
+  Engineering}, pages 492--497.
+
+\bibitem[{The PHP Group}, 2024]{php2024}
+{The PHP Group} (2024).
+\newblock Php manual.
+\newblock The PHP Group.
+
+\bibitem[Velasco~Castro, 2023]{velasco2023}
+Velasco~Castro, R. (2023).
+\newblock Sistema de ticket especializado para la gestión de incidencias en
+  soporte técnico. caso: Gobierno autónomo municipal de achocalla.
+\newblock Proyecto de grado de Licenciatura, Universidad Pública de El Alto.
+
+\bibitem[{W3C}, 2023]{w3c2023}
+{W3C} (2023).
+\newblock Html5 and css3 recommendations.
+\newblock World Wide Web Consortium.
+
+\bibitem[Zurita, 2022]{zurita2022}
+Zurita, U. (2022).
+\newblock Mejoramiento integral en la disponibilidad de servicios del centro de
+  datos del gobierno autónomo departamental de tarija, a través de
+  herramientas tic.
+\newblock {\em Revista Científica bit@bit}, 4(6):66--68.
+
 \end{thebibliography}

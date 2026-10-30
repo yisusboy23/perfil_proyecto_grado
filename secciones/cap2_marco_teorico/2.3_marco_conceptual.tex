@@ -1,3 +1,79 @@
-\section{Marco conceptual}
+\section{Marco Conceptual}
 
-Pendiente de desarrollo.
+El marco conceptual define los conceptos, principios de ingeniería y enfoques tecnológicos necesarios para comprender la problemática de estudio y sustentar rigurosamente el diseño propuesto. De acuerdo con las pautas de ingeniería de software, los conceptos aquí desarrollados no constituyen una recopilación teórica genérica, sino que se articulan directamente con los módulos, entidades y flujos funcionales del sistema que se proyecta diseñar.
+
+\subsection{Fundamentos de Ingeniería de Software y Sistemas de Información}
+
+La Ingeniería de Software es definida por Pressman y Maxim (2021) como una disciplina de la ingeniería que aplica un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación y mantenimiento del software. Por su parte, Sommerville (2019) destaca que esta disciplina abarca todas las fases de la producción de software, desde la especificación inicial de requerimientos hasta el mantenimiento evolutivo tras su puesta en marcha.
+
+Un Sistema de Información, según Laudon y Laudon (2020), es un conjunto de componentes interrelacionados que recolectan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones, la coordinación, el control y el análisis dentro de una organización. Los sistemas de información integran cinco dimensiones esenciales: personas (usuarios, técnicos, administradores), procedimientos (reglas operativas y políticas de negocio), datos (registros de clientes, equipos y órdenes), software (aplicaciones y lógica de negocio) y hardware (dispositivos de cómputo y servidores de almacenamiento).
+
+\subsection{Gestión de Servicios de Soporte Técnico y Help Desk}
+
+En el ámbito de las tecnologías de la información, un servicio de soporte técnico representa el conjunto de actividades organizadas que brindan asistencia correctiva, preventiva y operativa a usuarios de sistemas y equipos informáticos (Laudon \& Laudon, 2020). Una mesa de ayuda (Help Desk) constituye el punto único de contacto (Single Point of Contact, SPOC) entre los usuarios del servicio y el personal técnico, cuya función central es centralizar la recepción de solicitudes, canalizar incidentes técnicos y suministrar información sobre el estado de atención.
+
+\textbf{Conceptos de Soporte:} Dentro de este marco se distinguen los siguientes conceptos operativos fundamentales:
+
+\begin{itemize}
+\item \textbf{Incidente Técnico:} Cualquier evento que no forma parte de la operación estándar de un servicio y que causa, o puede causar, una interrupción o una reducción de la calidad del funcionamiento de un equipo informático (por ejemplo, fallo de arranque, pantalla azul o sobrecalentamiento).
+\item \textbf{Requerimiento de Servicio:} Petición formal formulada por un usuario para recibir asistencia estándar, asesoramiento o mantenimiento planificado (por ejemplo, formateo e instalación de software, ampliación de memoria RAM o mantenimiento preventivo).
+\item \textbf{Catálogo de Servicios:} Documento estructurado que enumera los servicios de soporte ofrecidos por el taller, detallando su alcance, condiciones, insumos requeridos y costos referenciales.
+\item \textbf{Acuerdos de Nivel de Servicio (SLA):} Compromiso documentado que fija metas de tiempo para la respuesta inicial y la resolución de incidentes según el nivel de prioridad acordado.
+\end{itemize}
+
+\subsection{Trazabilidad, ciclo de vida de órdenes de servicio y persistencia relacional}
+
+La trazabilidad en el contexto de la gestión técnica se define como la capacidad de reconstruir la trayectoria, el historial y las modificaciones aplicadas a un objeto o proceso mediante un registro documental auditable y secuencial (Moe, 1998; Olsen \& Aschan, 2002). En los servicios de soporte informático, el artefacto central de trazabilidad es la Orden de Trabajo u Orden de Servicio, la cual consolida la identidad del cliente, las características del dispositivo (marca, modelo, número de serie), el motivo de ingreso, los accesorios entregados, el diagnóstico técnico, la cotización de repuestos y las autorizaciones otorgadas.
+
+\textbf{Ciclo de Vida de la Orden de Servicio:} Para asegurar un control riguroso, la propuesta estructura el ciclo de vida de cada orden de trabajo a través de seis estados secuenciales definidos. Cabe señalar que esta secuencia de seis etapas constituye una propuesta de diseño propia del presente proyecto de grado, formulada mediante la adaptación de los principios generales de ingeniería de software (Pressman \& Maxim, 2021) y las buenas prácticas de gestión de incidentes de ITIL 4 (AXELOS, 2019) a la realidad operacional de los prestadores independientes de Tarija:
+
+\begin{enumerate}
+\item \textbf{Recepción:} Ingreso formal del equipo al taller, captura de datos del cliente, registro de especificaciones físicas y almacenamiento de evidencias fotográficas del estado estético inicial (rayones, roturas, faltantes) para evitar discrepancias futuras.
+\item \textbf{Diagnóstico:} Inspección técnica detallada para identificar el origen de la falla, componentes defectuosos y repuestos necesarios.
+\item \textbf{Presupuesto y Autorización:} Generación de la cotización formal de mano de obra y piezas, la cual debe ser comunicada y autorizada por el cliente antes de proceder a la reparación.
+\item \textbf{Reparación:} Ejecución de las labores de mantenimiento físico, sustitución de componentes o configuración de software por parte del técnico asignado.
+\item \textbf{Pruebas de Calidad:} Verificación funcional del equipo bajo condiciones operativas para asegurar la resolución de la falla original y la estabilidad del sistema.
+\item \textbf{Listo para Entrega y Conclusión:} Cierre de la orden, registro de fecha y hora de salida, entrega física del dispositivo al cliente y emisión del comprobante digital con las condiciones de garantía aplicables.
+\end{enumerate}
+
+A nivel de persistencia de datos, el diseño de la trazabilidad se fundamenta en un modelo relacional (MySQL) que contempla marcas temporales (timestamps: created\_at, updated\_at), registro del usuario responsable por cada cambio de estado y reglas de integridad referencial. Para salvaguardar la integridad histórica, la aplicación implementa marcas de borrado lógico (soft deletes mediante el campo deleted\_at), evitando la pérdida accidental de información en formularios. Adicionalmente, para reducir el riesgo de modificaciones o eliminaciones no autorizadas a nivel de base de datos, el diseño propone la restricción de privilegios del usuario DBMS de la aplicación (revocando la sentencia DELETE) y la creación de una tabla de auditoría (audit\_logs) gestionada por disparadores (triggers) que registren el valor anterior, el nuevo valor, el usuario responsable y la marca temporal ante cualquier cambio de estado o presupuesto, fortaleciendo la integridad del sistema y preservando un historial auditable a lo largo del tiempo (Moe, 1998; Olsen \& Aschan, 2002).
+
+\subsection{Arquitectura de Software, Modelado UML e Ingeniería de Requerimientos}
+
+La arquitectura de software define la estructuración de alto nivel de un sistema informático, determinando sus componentes principales, sus relaciones y los principios que guían su diseño (Pressman \& Maxim, 2021). Para el sistema propuesto se adopta una arquitectura en capas basada en el patrón Modelo-Vista-Controlador (MVC), la cual promueve la separación de responsabilidades entre la capa de presentación (interfaz web responsiva para usuarios y técnicos), la capa de lógica de negocio (controladores y servicios que ejecutan las reglas de cálculo, validación y transiciones de estado) y la capa de acceso y persistencia de datos (modelos que interactúan con el motor relacional).
+
+\textbf{Modelado UML:} El modelado conceptual y estructuración del sistema se apoya en el Lenguaje Unificado de Modelado (UML, Unified Modeling Language), utilizando los siguientes artefactos fundamentales (Pilone \& Pitman, 2018):
+
+\begin{itemize}
+\item \textbf{Diagramas de Casos de Uso:} Representan las interacciones funcionales entre los actores del sistema (Administrador, Técnico y Cliente) y los límites de la aplicación, definiendo casos como `Registrar Orden', `Adjuntar Evidencias Fotográficas', `Aprobar Presupuesto' y `Consultar Estado'.
+\item \textbf{Diagramas de Actividades:} Ilustran el flujo de trabajo operacional y la secuencia de decisiones lógicas en procesos como la autorización de presupuestos o la recepción de equipos.
+\item \textbf{Diagramas de Clases:} Estructuran las entidades principales del dominio (Cliente, Técnico, Equipo, OrdenServicio, Estado, EvidenciaFotográfica) junto con sus atributos, métodos y cardinalidades relacionales.
+\item \textbf{Diagramas de Secuencia:} Modelan el intercambio secuencial de mensajes temporales entre objetos para cumplir escenarios específicos de interacción.
+\end{itemize}
+
+\textbf{Especificación de Requerimientos (ISO/IEC/IEEE 29148:2018):} La especificación de los requerimientos del sistema se guía por los principios de la norma ISO/IEC/IEEE 29148:2018 (ISO/IEC/IEEE, 2018), relativa a la ingeniería de requerimientos durante el ciclo de vida de sistemas y productos de software. En este marco, se identifican y documentan los requerimientos funcionales (operaciones de recepción, diagnóstico, cotización, seguimiento de estados y consultas asistidas) y los no funcionales (atributos de calidad como seguridad, usabilidad, rendimiento y confiabilidad), fundamentando su definición en los resultados del diagnóstico de campo y el alcance establecido para la propuesta.
+
+\subsection{Asistencia mediante Inteligencia Artificial: Modelos de Lenguaje (LLM), Prompt Engineering y PLN}
+
+El Procesamiento del Lenguaje Natural (PLN) es la rama de la inteligencia artificial y la lingüística computacional orientada a capacitar a los sistemas informáticos para interpretar, analizar y generar texto en lenguaje humano (Russell \& Norvig, 2021). En años recientes, el desarrollo de las redes neuronales profundas basadas en la arquitectura Transformer ha dado lugar a los Modelos de Lenguaje de Gran Tamaño (LLM, Large Language Models), los cuales han sido preentrenados sobre vastos volúmenes de texto para comprender contextos semánticos complejos y generar respuestas fluidas y coherentes.
+
+\textbf{Arquitectura y Decisiones Técnicas de la Asistencia con IA:} En el diseño propuesto, el componente de inteligencia artificial conversacional se articula sobre decisiones técnicas rigurosas que concretan la tecnología elegida, sus capacidades y sus restricciones operativas:
+
+\begin{itemize}
+\item \textbf{Modelo de Lenguaje de Referencia:} Se propone integrar un modelo de lenguaje de gran tamaño (LLM) mediante una API REST de un proveedor externo, tomando a Google Gemini (Google AI, 2026) como alternativa tecnológica de referencia. La selección definitiva del modelo se realizará considerando su disponibilidad, continuidad del servicio, coste de utilización y capacidad para procesar consultas en español.
+\item \textbf{Función Específica del LLM:} La responsabilidad del modelo de lenguaje en la solución propuesta se limita al procesamiento del lenguaje natural (PLN), la comprensión de intenciones del usuario y la síntesis de respuestas conversacionales fluidas. En la arquitectura diseñada, el modelo no generará consultas SQL directas ni tendrá capacidad de interacción sin intermediación sobre la persistencia de datos.
+\item \textbf{Control de Acceso y Desacoplamiento Arquitectónico (API REST):} La seguridad se proyecta mediante una capa intermedia en el backend. Cuando el cliente introduzca su token criptográfico único (UUIDv4 asociado a la orden), el backend de Laravel autenticará la petición, aplicará un mecanismo de limitación de tasa de intentos (rate limiting) para evitar la enumeración automatizada, ejecutará una consulta de solo lectura a la base de datos relacional MySQL para recuperar exclusivamente los campos públicos autorizados (estado y fecha estimada), e insertará dichos datos en la directiva de sistema (system prompt) antes de consultar la API del LLM.
+\item \textbf{Delimitación Operativa, Ética y Alcance del Diseño:} El asistente conversacional se concibe como un canal de atención informativa para preguntas frecuentes (horarios, servicios, ubicación) y consulta de avance de órdenes. Se fija la restricción categórica de que el asistente no emitirá diagnósticos técnicos autónomos, no modificará montos de cotizaciones ni alterará estados en la base de datos, salvaguardando la responsabilidad técnica humana. Asimismo, se precisa que la capacidad de respuesta automatizada constituye una característica prevista en el diseño arquitectónico de la propuesta.
+\end{itemize}
+
+\subsection{Seguridad de la Información, Control de Acceso Basado en Roles (RBAC) y Privacidad}
+
+La seguridad de la información constituye un requisito no funcional crítico en sistemas que gestionan datos personales de clientes e información sobre equipos informáticos. Se fundamenta en los tres pilares de la seguridad informática (la tríada CIA): confidencialidad (garantizar que la información sea accesible únicamente por entidades autorizadas), integridad (salvaguardar la exactitud y totalidad de la información y sus métodos de procesamiento) y disponibilidad (asegurar que los usuarios autorizados tengan acceso a la información y activos asociados cuando lo requieran).
+
+\textbf{Modelo de Control de Acceso (RBAC):} Para regular la interacción segura dentro del sistema se propone un esquema de Control de Acceso Basado en Roles (RBAC, Role-Based Access Control) complementado con controles de acceso basados en atributos (Ferraiolo \& Kuhn, 1992; NIST, 2014), el cual especificará las restricciones de operaciones según el rol del usuario autenticado:
+
+\begin{itemize}
+\item \textbf{Rol Administrador:} Gestión integral de usuarios, asignación de permisos, supervisión de órdenes de trabajo, visualización de métricas de servicio y auditoría del sistema.
+\item \textbf{Rol Técnico:} Recepción de equipos, registro de observaciones y evidencias fotográficas, actualización del diagnóstico, cambio de estados técnicos y cierre operativo de órdenes.
+\item \textbf{Rol Cliente:} Acceso público o autenticado orientado a consultar el estado actualizado de la orden de servicio mediante token único y visualizar fotografías de recepción, además de permitir registrar la aceptación o rechazo del presupuesto mediante una operación específica validada y auditada por el backend.
+\end{itemize}

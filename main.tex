@@ -4,6 +4,8 @@
 \begin{document}
 
 \input{portada}
+\input{resumen}
+\input{abstract}
 \pagenumbering{roman}
 \tableofcontents
 \clearpage
@@ -32,8 +34,14 @@
 \input{secciones/cap2_marco_teorico/2.2_marco_contextual}
 \input{secciones/cap2_marco_teorico/2.3_marco_conceptual}
 \input{secciones/cap2_marco_teorico/2.4_marco_normativo}
+\input{secciones/cap2_marco_teorico/2.5_marco_referencial}
 
+\nocite{*}
+\renewcommand{\bibname}{REFERENCIAS BIBLIOGRÁFICAS}
 \bibliographystyle{apalike}
 \bibliography{bibliografia}
+
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Índice de tablas}
 
 \end{document}

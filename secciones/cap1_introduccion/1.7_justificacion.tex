@@ -1,17 +1,19 @@
 \section{Justificación}
 
-\subsection{Justificación técnica}
+\subsection{Justificación Técnica}
 
-Desde la perspectiva técnica, el proyecto propone organizar la información de los servicios de soporte mediante un modelo estructurado de datos y la definición clara de estados de trabajo. Asimismo, contempla el diseño de un asistente conversacional basado en inteligencia artificial para apoyar la atención de consultas frecuentes sobre el estado de los equipos. Esta herramienta actuará como un canal complementario de información, sin sustituir la revisión técnica ni el diagnóstico especializado a cargo del personal calificado.
+Desde la perspectiva de la ingeniería de software, el proyecto fundamenta su valor en la transición desde registros heterogéneos hacia una arquitectura centralizada y un modelo relacional de datos orientado a la trazabilidad del mantenimiento. La arquitectura propuesta establece el ciclo de vida de cada orden de trabajo mediante estados formalizados (recepción, diagnóstico, autorización, reparación, pruebas y entrega), contemplando la integridad del historial técnico mediante políticas de no-eliminación de registros.
 
-\subsection{Justificación social}
+En cuanto al componente de Inteligencia Artificial y seguridad, la propuesta especifica una arquitectura basada en la integración de un Modelo de Lenguaje de Gran Tamaño (LLM) mediante la API REST de un proveedor externo, tomando a Google Gemini (Google AI, 2026) como alternativa tecnológica de referencia. La selección definitiva del modelo se proyecta considerando la disponibilidad del servicio, costos optimizados por token y rendimiento en procesamiento de lenguaje natural en español. La función del LLM se delimita estrictamente a la interpretación semántica de las peticiones del usuario y a la redacción de respuestas conversacionales fluidas. Para garantizar la seguridad e integridad del sistema, el modelo de lenguaje no poseerá acceso directo ni privilegios de ejecución sobre la base de datos relacional. La interacción se diseña a través de una capa intermedia de backend (API REST en Laravel) que actuará como un proxy seguro: validará la autenticidad del token criptográfico único (UUIDv4) de la orden de trabajo, aplicará limitación de tasa de intentos (rate limiting), consultará en modo de solo lectura los registros autorizados en MySQL (estado actual, fecha estimada) e inyectará dicha información en el contexto de la instrucción antes de enviarla a la API. De esta manera, el asistente se concibe como un canal informativo automatizado para preguntas frecuentes y consultas de estado previstas en el diseño arquitectónico, sin proyectar operaciones destructivas en la base de datos ni emitir diagnósticos técnicos autónomos o modificar presupuestos, responsabilidades que se mantendrán bajo el control exclusivo del técnico calificado.
+
+\subsection{Justificación Social}
 
 En el ámbito social, la propuesta busca facilitar el acceso de los clientes a la información sobre sus servicios de soporte técnico, reduciendo la incertidumbre durante el periodo de reparación. El diseño del sistema podría favorecer una comunicación más clara entre el usuario y el prestador del servicio, promoviendo acuerdos transparentes sobre los trabajos requeridos.
 
-\subsection{Justificación económica}
+\subsection{Justificación Económica}
 
-Desde el punto de vista económico, el diseño propuesto busca respaldar la gestión organizativa de los prestadores de servicio. La centralización de la información y la automatización de respuestas a consultas frecuentes podrían contribuir a reducir el tiempo dedicado a la atención de llamadas o mensajes repetitivos, permitiendo un uso más eficiente del tiempo de trabajo.
+Desde el punto de vista económico, el diseño propuesto busca respaldar la gestión organizativa de los prestadores de servicio. La centralización de la información y la automatización de respuestas a consultas frecuentes podrían contribuir a reducir el tiempo dedicado a la atención de llamadas o mensajes repetitivos, permitiendo un uso más eficiente del tiempo de trabajo del personal técnico.
 
-\subsection{Justificación medioambiental}
+\subsection{Justificación Medioambiental}
 
-En el aspecto ambiental, la digitalización de los registros de recepción y del seguimiento de las órdenes de trabajo podría reducir progresivamente la necesidad de utilizar comprobantes en papel. Adicionalmente, el adecuado mantenimiento de los equipos informáticos constituye una práctica que contribuye a prolongar su vida útil, lo que representa un beneficio indirecto potencial en favor del aprovechamiento de los recursos tecnológicos.
+Desde la perspectiva medioambiental y de desarrollo sostenible, la digitalización de los procesos de recepción, diagnóstico y entrega de equipos contribuye a la reducción directa del consumo de papel y formularios impresos en los talleres de soporte técnico. Asimismo, la disponibilidad de un historial auditable de mantenimiento extiende la vida útil de los equipos informáticos y promueve el aprovechamiento adecuado de repuestos, mitigando la generación prematura de residuos de aparatos eléctricos y electrónicos (RAEE) en el entorno urbano de la ciudad de Tarija.
